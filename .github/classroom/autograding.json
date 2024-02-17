@@ -1,0 +1,106 @@
+{
+  "tests": [
+    {
+      "name": "Exercise 1 - Older Person",
+      "run": "pytest exercises/test_exercise_1.py",
+      "timeout": 5,
+      "points": 10
+    },
+    {
+      "name": "Exercise 2 - Age Group Classification",
+      "run": "pytest exercises/test_exercise_2.py",
+      "timeout": 5,
+      "points": 20
+    },
+    {
+      "name": "Exercise 3 - Roulette Color Prediction",
+      "run": "pytest exercises/test_exercise_3.py",
+      "timeout": 5,
+      "points": 30
+    },
+    {
+      "name": "Exercise 4 - School Grade Levels",
+      "run": "pytest exercises/test_exercise_4.py",
+      "timeout": 5,
+      "points": 20
+    },
+    {
+      "name": "Exercise 5 - Quadratic Equation Roots",
+      "run": "pytest exercises/test_exercise_5.py",
+      "timeout": 5,
+      "points": 30
+    },
+    {
+      "name": "Exercise 6 - Distance from Origin",
+      "run": "pytest exercises/test_exercise_6.py",
+      "timeout": 5,
+      "points": 20
+    },
+    {
+      "name": "Exercise 7 - Simple Calculator",
+      "run": "pytest exercises/test_exercise_7.py",
+      "timeout": 5,
+      "points": 30
+    },
+    {
+      "name": "Exercise 8 - Digit in Number",
+      "run": "pytest exercises/test_exercise_8.py",
+      "timeout": 5,
+      "points": 20
+    },
+    {
+      "name": "Exercise 9 - Compare Digits",
+      "run": "pytest exercises/test_exercise_9.py",
+      "timeout": 5,
+      "points": 20
+    },
+    {
+      "name": "Exercise 10 - Right-Angled Triangle",
+      "run": "pytest exercises/test_exercise_10.py",
+      "timeout": 5,
+      "points": 30
+    },
+    {
+      "name": "Exercise 11 - Leap Year",
+      "run": "pytest exercises/test_exercise_11.py",
+      "timeout": 5,
+      "points": 20
+    },
+    {
+      "name": "Exercise 12 - Replace Even Digits",
+      "run": "pytest exercises/test_exercise_12.py",
+      "timeout": 5,
+      "points": 10
+    },
+    {
+      "name": "Exercise 13 - Different Digits",
+      "run": "pytest exercises/test_exercise_13.py",
+      "timeout": 5,
+      "points": 20
+    },
+    {
+      "name": "Exercise 14 - Palindrome Number",
+      "run": "pytest exercises/test_exercise_14.py",
+      "timeout": 5,
+      "points": 20
+    },
+    {
+      "name": "Exercise 15 - Next Day's Date",
+      "run": "pytest exercises/test_exercise_15.py",
+      "timeout": 5,
+      "points": 30
+    },
+    {
+      "name": "Exercise 16 - Previous Day's Date",
+      "run": "pytest exercises/test_exercise_16.py",
+      "timeout": 5,
+      "points": 30
+    },
+    {
+      "name": "Exercise 17 - Lucky Ticket",
+      "run": "pytest exercises/test_exercise_17.py",
+      "timeout": 5,
+      "points": 30
+    }
+  ]
+}
