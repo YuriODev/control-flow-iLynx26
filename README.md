@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=13909050&assignment_repo_type=AssignmentRepo)
 # 📘 Conditional Statements in Python 
 
 Welcome to the second module of our Python course at St. Ignatius College, focusing on Conditional Statements. This module is crucial for making decisions in your programs and executing code based on certain conditions.
