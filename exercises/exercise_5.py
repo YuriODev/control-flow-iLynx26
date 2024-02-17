@@ -1,12 +1,11 @@
 def test_function(a, b, c):
 
+    if a == b == c == 0:
+        return "Infinite roots."
     if a == b == 0:
         return "No roots."
     if a == 0:
         x = -c / b
-        return str(x)
-    elif b == 0:
-        x = (-c / a) ** 0.5
         return str(x)
     else:
         d = b ** 2 - 4 * a * c
