@@ -12,8 +12,8 @@ def test_function(a, b, c):
         d = b ** 2 - 4 * a * c
         if d < 0:
             return "No roots."
-        x1 = (b + d) / 2 /a /c
-        x2 = (b - d) / 2 /a /c
+        x1 = (b + d) / 2 /a
+        x2 = (b - d) / 2 /a
         return f"{x1} and {x2}"
 
 a = float(input())
