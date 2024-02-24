@@ -12,6 +12,7 @@ class TestGreetingDecision(unittest.TestCase):
         input_value = '\n'.join(inputs) + '\n'
         return subprocess.check_output(['python3', 'exercise_18.py'], input=input_value, text=True, universal_newlines=True)
 
+    @unittest.skipIf(os.environ.get('RUN_TESTS') != '1', "Skipping test because RUN_TESTS environment variable is not set to 1")
     def test_remember_name_yes_ex_yes_drunk_yes_rekindle(self):
         inputs = ['yes', 'yes', 'yes', 'yes']
         output = self.run_exercise(inputs)
@@ -57,7 +58,7 @@ def run_tests_manually():
     suite.run(result)
     
     if not result.wasSuccessful() or result.skipped:
-        if len(result.skipped) == 2:
+        if len(result.skipped) == 6:
             print("You have not attempted to solve the problem yet")
         else:
             for test, reason in result.skipped:
