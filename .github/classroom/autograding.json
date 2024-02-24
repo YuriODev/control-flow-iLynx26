@@ -101,6 +101,12 @@
       "run": "pytest exercises/test_exercise_17.py",
       "timeout": 5,
       "points": 30
+    },
+    {
+      "name": "Exercise 18 - Greeting Decision",
+      "run": "pytest exercises/test_exercise_18.py",
+      "timeout": 5,
+      "points": 50
     }
   ]
 }
