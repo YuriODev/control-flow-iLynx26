@@ -1,8 +1,6 @@
 import unittest
-from unittest.mock import patch
 import subprocess
 import os
-
 
 
 # Helper method to check if we should run tests based on script output
@@ -38,12 +36,7 @@ class TestGreetingDecision(unittest.TestCase):
             text=True,
             universal_newlines=True
         )
-
-    def run_exercise(self, inputs):
-        """Helper method to run the exercise script with the provided inputs and return its output."""
-        # The inputs list is joined into a single string, each separated by '\n'
-        input_value = '\n'.join(inputs) + '\n'
-        return subprocess.check_output(['python3', 'exercise_18.py'], input=input_value, text=True, universal_newlines=True)
+        
 
     def test_remember_name_yes_ex_yes_drunk_yes_rekindle(self):
         inputs = ['yes', 'yes', 'yes', 'yes']
