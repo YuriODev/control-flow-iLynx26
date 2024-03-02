@@ -10,7 +10,8 @@ class TestGreetingDecision(unittest.TestCase):
         """Helper method to run the exercise script with the provided inputs and return its output."""
         # The inputs list is joined into a single string, each separated by '\n'
         input_value = '\n'.join(inputs) + '\n'
-        return subprocess.check_output(['python3', 'exercise_18.py'], input=input_value, text=True, universal_newlines=True)
+        exercise_file_path = os.path.join(os.path.dirname(__file__), "exercise_18.py")
+        return subprocess.check_output(['python3', exercise_file_path], input=input_value, text=True, universal_newlines=True)
 
     def test_remember_name_yes_ex_yes_drunk_yes_rekindle(self):
         inputs = ['yes', 'yes', 'yes', 'yes']
@@ -49,3 +50,4 @@ if __name__ == '__main__':
     # Path to the script that contains the decision logic
     # exercise_file_path = os.path.join(os.path.dirname(__file__), "greeting_decision.py")
     unittest.main()
+    
